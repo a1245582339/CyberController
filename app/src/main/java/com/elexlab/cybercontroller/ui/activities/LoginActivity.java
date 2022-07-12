@@ -188,14 +188,12 @@ public class LoginActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                bluetoothKeyboard.sendKey("7");
+                bluetoothKeyboard.sendKey("4");
                 bluetoothKeyboard.sendKey("1");
-                bluetoothKeyboard.sendKey("q");
-                bluetoothKeyboard.sendKey("a");
-                bluetoothKeyboard.sendKey("z");
-                bluetoothKeyboard.sendKey("@");
-                bluetoothKeyboard.sendKey("W");
-                bluetoothKeyboard.sendKey("S");
-                bluetoothKeyboard.sendKey("X");
+                bluetoothKeyboard.sendKey("9");
+                bluetoothKeyboard.sendKey("6");
+                bluetoothKeyboard.sendKey("3");
                 bluetoothKeyboard.sendKey("Enter");
             }
         },500);
